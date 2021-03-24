@@ -1,0 +1,18 @@
+[
+    {
+        "name": "xxx",
+        "email": "xxx",
+        "password": "xxx"
+    },
+    {
+        "name": "Bob",
+        "email": "bobsburgers420@yahoo.com",
+        "password": "bobpw"
+    },
+    {
+        "name": "Elon Musk",
+        "email": "elontesla@gmail.com",
+        "password": "elonpw"
+    }    
+
+]

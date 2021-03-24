@@ -1,47 +1,20 @@
 [
-    {
-      "recipe_name": "xxx",
-      "ingredients": "xxx",
-      "user": "xxx",
-      "instructions": "xxx"
-      
-    },
   {
-      "recipe_name": "Ichiraku Ramen",
-      "ingredients": 
-      "Two packs of ramen noodles of your choice,
-      5 cups of pork or beef broth,
-      Pork Tenderloin
-      2 Eggs
-      1 Baby bok choy
-      1 Green Onion
-      Soy Sauce
-      Aburage x5
-      Nori
-      Kamaboko x3",
-      "user": "Bob",
-      "instructions": "1. Preheat your stove to 450 degrees. From there, start to cook the pork tenderloin for 10-15 minutes, or until it’s well done.
-      2. Make a pot of water and place your two eggs in the pot with enough water to submerge them. It should take about 10 minutes to hard boil the eggs. Take them out and place them in cold water when they are done.
-      3. Next, pour in the 5 cups of broth and let it simmer. You can add soy sauce or your own custom ingredients as well.
-      4. Once the broth begins to simmer, add the ramen noodles. DO NOT add any flavor packets. The noodles have to cook first.
-      5. Now, it’s time to prepare the toppings. Peel the eggs and slick them in half. What you do with the rest is up to you. Then, neatly slice the pork tenderloin, kamaboko, bok choy, aburage, and green onion into thin slices.
-      6. When the noodles are done cooking, place the broth in a deep bowl and the noodles next. Then, place all of the ingredients in groups above the noodles until it looks neat. You can use the picture below for a guide.
-      "
+    "recipe_name": "xxx",
+    "ingredients": "xxx",
+    "user": "xxx",
+    "instructions": "xxx"
+  },
+  {
+    "recipe_name": "Ichiraku Ramen",
+    "ingredients": "Two packs of ramen noodles of your choice, 5 cups of pork or beef broth, Pork Tenderloin, 2 Eggs, 1 Baby bok choy, 1 Green Onion, Soy Sauce, Aburage x5, Nor Kamaboko x3",
+    "user": "Bob",
+    "instructions": "1. Preheat your stove to 450 degrees. From there, start to cook the pork tenderloin for 10-15 minutes, or until it’s well done. 2. Make a pot of water and place your two eggs in the pot with enough water to submerge them. It should take about 10 minutes to hard boil the eggs. Take them out and place them in cold water when they are done. 3. Next, pour in the 5 cups of broth and let it simmer. You can add soy sauce or your own custom ingredients as well. 4. Once the broth begins to simmer, add the ramen noodles. DO NOT add any flavor packets. The noodles have to cook first. 5. Now, it’s time to prepare the toppings. Peel the eggs and slick them in half. What you do with the rest is up to you. Then, neatly slice the pork tenderloin, kamaboko, bok choy, aburage, and green onion into thin slices. 6. When the noodles are done cooking, place the broth in a deep bowl and the noodles next. Then, place all of the ingredients in groups above the noodles until it looks neat. You can use the picture below for a guide."
   },
   {
     "recipe_name": "Birria",
-    "ingredients": "5 dried Anaheim chile peppers, stemmed and seeded
-    5 guajillo chile peppers, stemmed and seeded 
-    water to cover
-    ¼ onion
-    1 tablespoon mixed spices, or more to taste
-    1 tablespoon salt, or to taste
-    3 pounds cubed beef stew meat
-    6 bay leaves",
+    "ingredients": "5 dried Anaheim chile peppers (stemmed and seeded), 5 guajillo chile peppers (stemmed and seeded), water to cover, ¼ onion 1 tablespoon mixed spices, or more to taste 1 tablespoon salt, or to taste 3 pounds cubed beef stew meat 6 bay leaves",
     "user": "Elon Musk",
-    "instructions": "Step 1: Place Anaheim and guajillo peppers in a saucepan and cover with water; bring to a boil. Reduce heat to medium-low and simmer until tender, about 15 minutes. Remove saucepan from heat and cool for 5 minutes.
-    Step 2: Pour chiles and water into a blender; add onion, mixed spices, and salt. Blend until sauce is smooth.
-    Step 3:
-    Mix stew meat, sauce, and bay leaves in a large pot; cook over medium-low heat until meat is very tender, 3 to 5 hours."
+    "instructions": "Step 1: Place Anaheim and guajillo peppers in a saucepan and cover with water; bring to a boil. Reduce heat to medium-low and simmer until tender, about 15 minutes. Remove saucepan from heat and cool for 5 minutes. Step 2: Pour chiles and water into a blender; add onion, mixed spices, and salt. Blend until sauce is smooth. Step 3: Mix stew meat, sauce, and bay leaves in a large pot; cook over medium-low heat until meat is very tender, 3 to 5 hours."
   }
 ]
