@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS recipies_db;
+DROP DATABASE IF EXISTS recipes_db;
 
-CREATE DATABASE recipies_db;
+CREATE DATABASE recipes_db;
 
-USE recipies_db;
+USE recipes_db;
 
