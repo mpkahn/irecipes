@@ -4,7 +4,7 @@ const newForm = async function(event) {
   const title = document.querySelector('input[name="post-title"]').value;
   const body = document.querySelector('textarea[name="post-body"]').value;
 
-  await fetch(`/api/post`, {
+  await fetch(`/api/recipes`, {
     method: 'POST',
     body: JSON.stringify({
       title,

@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Recipes, Comment, User } = require('../models/');
-const withAuth = require('../utils/auth');
+// const withAuth = require('../utils/auth');
 
 router.get('/', async (req, res) => {
   try {
@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
       include: [User],
     });
 
-    const posts = postContent.map((recipes) => recipes.get({ plain: true }));
+    const posts = postContent.map((post) => post.get({ plain: true }));
 
     res.render('homepage', { posts });
   } catch (err) {
@@ -35,6 +35,31 @@ router.get('/', async (req, res) => {
 //     res.status(500).json(err);
 //   }
 // });
+// GET one post by ID
+
+router.get('/post/:id', async (req, res) => {
+  try {
+    const postContent = await Post.findByPk(req.params.id, {
+      include: [
+        User,
+        {
+          model: Comment,
+          include: [User],
+        },
+      ],
+    });
+
+    if (postContent) {
+      const post = postContent.get({ plain: true });
+
+      res.render('post', { post });
+    } else {
+      res.status(404).end();
+    }
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
 
 router.get('/register', (req, res) => {
   if (req.session.loggedIn) {
