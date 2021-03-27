@@ -14,7 +14,7 @@ const signup = async function(event) {
   });
 
   if (response.ok) {
-    document.location.replace('/project');
+    document.location.replace('/recipes');
   } else {
     alert('Sign up failure, please try again');
   }

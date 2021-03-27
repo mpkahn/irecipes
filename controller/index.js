@@ -6,7 +6,7 @@ const recipeRoutes = require('./recipe-routes.js');
 
 
 
-router.use('/recipe', recipeRoutes);
+router.use('/recipes', recipeRoutes);
 
 router.use('/', homeRoutes);
 router.use('/api', apiRoutes);

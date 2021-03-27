@@ -14,7 +14,7 @@ const loginFormHandler = async function(event) {
   });
 
   if (response.ok) {
-    document.location.replace('/project');
+    document.location.replace('/recipes');
   } else {
     alert('Log-in Error!');
   }

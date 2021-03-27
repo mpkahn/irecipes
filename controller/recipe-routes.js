@@ -14,7 +14,7 @@ router.get('/', withAuth, async (req, res) => {
     const posts = postContent.map((post) => post.get({ plain: true }));
 
     res.render('adminposts', {
-      layout: 'project',
+      layout: 'recipes',
       posts,
     });
   } catch (err) {
@@ -30,7 +30,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
       const post = postContent.get({ plain: true });
 
       res.render('editpage', {
-        layout: 'project',
+        layout: 'recipes',
         post,
       });
     } else {
@@ -43,7 +43,7 @@ router.get('/edit/:id', withAuth, async (req, res) => {
 
 router.get('/new', withAuth, (req, res) => {
   res.render('createpost', {
-    layout: 'project',
+    layout: 'recipes',
   });
 });
 
