@@ -1,4 +1,4 @@
-const signup = async function(event) {
+const signupFormHandler = async function(event) {
   event.preventDefault();
 
   const usernameEl = document.querySelector('#username-input-signup');
@@ -14,12 +14,12 @@ const signup = async function(event) {
   });
 
   if (response.ok) {
-    document.location.replace('/recipes');
+    document.location.replace('/dashboard');
   } else {
-    alert('Sign up failure, please try again');
+    alert('Failed to sign up');
   }
 };
 
 document
   .querySelector('#signup-form')
-  .addEventListener('submit', signup);
+  .addEventListener('submit', signupFormHandler);

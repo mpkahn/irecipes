@@ -14,9 +14,9 @@ const loginFormHandler = async function(event) {
   });
 
   if (response.ok) {
-    document.location.replace('/recipes');
+    document.location.replace('/dashboard');
   } else {
-    alert('Log-in Error!');
+    alert('Failed to login');
   }
 };
 
