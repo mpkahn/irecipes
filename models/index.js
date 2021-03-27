@@ -2,7 +2,7 @@ const User = require('./users');
 const Recipe = require('./Recipes');
 const Comment = require('./Comment');
 
-Post.belongsTo(User, {
+Recipe.belongsTo(User, {
   foreignKey: 'userId',
   onDelete: 'CASCADE'
 });
