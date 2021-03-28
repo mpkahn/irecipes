@@ -1,5 +1,5 @@
 :root {
-  --primary: #ccdad1;
+  --primary: #ffffff;
   --secondary: #9caea9;
   --tertiary: #788585;
   --light-dark: #6f6866;
@@ -21,8 +21,29 @@ body {
   font-size: 16px;
 }
 
-h1,
-h2,
+.jumbotron2 {
+  color: white;
+  background-image: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65vh;
+}
+
+.jumbotron1 {
+  color: white;
+  background-image: url("https://i.imgur.com/Hw4kbkG.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.bootstrap-overrides {
+  height: 65vh;
+}
+/* h1,
+
 h3,
 h4,
 h5,
@@ -31,7 +52,46 @@ h6 {
   margin: 0;
   color: var(--dark);
   line-height: 1.25;
+} */
+.headerbox {
+  background: rgba(0, 0, 0, 0.5);
+ max-width: 100%;
+ 
 }
+
+.bodytitle {
+  padding-left: 2%;
+  padding-top: 3%;
+}
+h2 {
+  font-family: "Open Sans", sans-serif;
+}
+
+.display-4 {
+  font-size: 5.5rem;
+
+  font-weight:300;
+  line-height: 1.2;
+  margin-bottom: .5rem;
+  margin-top: 10%;
+  padding-left: 5%;
+
+  /* color: rgb(255, 255, 255); */
+  
+ 
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+.headertext {
+  margin-bottom: 5%;
+  padding-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+  padding-left: 5%;
+  
+}
+
 
 h2 a:visited {
   color: var(--tertiary);
@@ -67,7 +127,7 @@ input {
 }
 
 .card-header h2 {
-  color: var(--primary);
+  color: white;
 }
 
 .btn {
@@ -115,7 +175,7 @@ input {
   color: var(--primary);
 }
 
-.hero {
+/* .hero {
   padding: 3% 4%;
   background-color: var(--dark);
   color: var(--primary);
@@ -123,7 +183,7 @@ input {
 
 .hero p {
   max-width: 75%;
-}
+} */
 
 .app-title {
   font-size: 3rem;
@@ -147,21 +207,26 @@ input {
   margin-bottom: 10px;
   padding: 1.5%;
   border-radius: var(--border-radius);
-  background-color: var(--light-dark);
-  color: var(--primary);
+  background-color:#795548;
+  color: white;
   text-decoration: none;
+  padding: 10%;
 }
 
 .list-item:hover {
   background-color: var(--dark);
 }
 
+.postbutton {
+  background-color:#795548;
+}
+
 .footer a {
   display: inline-block;
   padding: 1em;
   margin-bottom: .5em;
-  background-color: var(--dark);
-  color: var(--primary);
+  background-color:#795548;
+  color: white;
   border-radius: var(--border-radius);
   text-decoration: none;
 }
@@ -169,13 +234,13 @@ input {
 /* CARDS */
 .card {
   margin: 0 0 20px 0;
-  border: 3px solid var(--dark);
+  border: 2px solid var(--dark);
   border-radius: var(--border-radius);
 }
 
 .card-header {
-  color: var(--primary);
-  background-color: var(--dark);
+  color: white;
+  background-color:#795548;
   padding: 1%;
   border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
 }
