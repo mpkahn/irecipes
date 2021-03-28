@@ -11,6 +11,7 @@ const editFormHandler = async function(event) {
     body: JSON.stringify({
       title,
       body
+      // content
     }),
     headers: {
       'Content-Type': 'application/json'
