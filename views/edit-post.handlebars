@@ -8,7 +8,11 @@
     <label class="form-label" for="post-title">Title</label>
     <input type="text" name="post-title" value="{{post.title}}" class="form-input" />
 
-    <label class="form-label" for="post-body">Content</label>
+    <label class="form-label" for="post-body">Ingredients</label>
+    <textarea name="post-body" class="form-input">{{post.content}}</textarea>
+
+    
+    <label class="form-label" for="post-content">Instructions</label>
     <textarea name="post-content" class="form-input">{{post.content}}</textarea>
 
   
