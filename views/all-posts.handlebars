@@ -1,6 +1,35 @@
 <div class="posts">
   {{#each posts}}
-  <article class="card">
+
+<div class="w3-card-4">
+
+<header class="w3-container top-card">
+  <h1>
+    <a href="/post/{{id}}">{{title}}</a>
+  </h1>
+</header>
+
+<div class="w3-container">
+  <p>Ingredients</p>
+      {{body}}
+      <br>
+      <p>Instructions</p>
+      {{content}}
+</div>
+
+<footer class="w3-container bottom-card">
+  Posted by {{User.username}} on {{format_date createdAt}}
+</footer>
+
+</div>
+
+
+
+
+
+
+
+  {{!-- <article class="card">
     <div class="card-header flex-row justify-space-between">
       <h2>
         <a href="/post/{{id}}">{{title}}</a>
@@ -16,6 +45,6 @@
       <p>Instructions</p>
       {{content}}
     </div>
-  </article>
+  </article> --}}
   {{/each}}
 </div>

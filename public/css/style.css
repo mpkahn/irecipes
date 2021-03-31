@@ -141,7 +141,7 @@ input {
   color: var(--primary);
   border: none;
   outline: none;
-  background-color: var(--light-dark);
+  background-color: #607D8B;
   box-shadow: 3px 3px var(--dark);
   transform: translate(-1px, -1px);
 }
@@ -203,6 +203,14 @@ input {
   padding: 1%;
 }
 
+.w3-panel {
+  padding:60px;
+  /* background-color: #795548; */
+  background-image: url("https://solidodesigns.com/wp-content/uploads/2018/06/English-Oak-Uni-Directional-300x200.jpg");
+  color: white;
+  font-size: 25px;
+}
+
 .list-item {
   margin-bottom: 10px;
   padding: 1.5%;
@@ -225,7 +233,7 @@ input {
   display: inline-block;
   padding: 1em;
   margin-bottom: .5em;
-  background-color:#795548;
+  background-image: url("https://solidodesigns.com/wp-content/uploads/2018/06/English-Oak-Uni-Directional-300x200.jpg");
   color: white;
   border-radius: var(--border-radius);
   text-decoration: none;
@@ -268,6 +276,25 @@ input {
   font-size: 1.2rem;
   border: 2px solid var(--light-dark);
   border-radius: var(--border-radius);
+}
+
+.w3-card-4 {
+  border-radius: 30px;
+}
+
+
+
+.top-card {
+  border-radius: 20px 20px 0px 0px;
+  background-color: #607D8B;
+  color: white;
+
+}
+
+.bottom-card {
+  border-radius: 0px 0px 20px 20px;
+  background-color: #607D8B;
+  color: white
 }
 
 /* HEIGHT / WIDTH UTILS */
