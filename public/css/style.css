@@ -239,6 +239,10 @@ input {
   text-decoration: none;
 }
 
+.editcard {
+  background-color:#795548!important;
+}
+
 .signup {
   text-decoration: underline;
 }
