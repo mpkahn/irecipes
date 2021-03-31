@@ -1,6 +1,6 @@
 <div class="post">
-  <article class="card">
-    <div class="card-header flex-row justify-space-between">
+  <article class="w3-card-4">
+    <div class="w3-container top-card">
       <h2>{{post.title}}</h2>
       <div>
         Posted by {{post.User.username}} on {{format_date post.createdAt}}
@@ -16,12 +16,12 @@
   </article>
 
   {{#if post.Comments}}
-    <section class="card">
-      <div class="card-header">
+    <section class="w3-container top-card">
+      <div>
         <h3>Comments</h3>
       </div>
 
-      <div class="card-body">
+      <div>
         {{#each post.Comments}}
           <div>
             <p>
@@ -36,8 +36,10 @@
     </section>
   {{/if}}
 
-  <form id="new-comment-form" class="card">
-    <div class="card-header">
+  <br>
+
+  <form id="new-comment-form" class="w3-card-4">
+    <div class="w3-container top-card">
       <h3>Add New Comment</h3>
     </div>
 
