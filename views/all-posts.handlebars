@@ -1,0 +1,50 @@
+<div class="posts">
+  {{#each posts}}
+
+<div class="w3-card-4">
+
+<header class="w3-container top-card">
+  <h1>
+    <a href="/post/{{id}}">{{title}}</a>
+  </h1>
+</header>
+
+<div class="w3-container">
+  <p>Ingredients</p>
+      {{body}}
+      <br>
+      <p>Instructions</p>
+      {{content}}
+</div>
+
+<footer class="w3-container bottom-card">
+  Posted by {{User.username}} on {{format_date createdAt}}
+</footer>
+
+</div>
+
+
+
+
+
+
+
+  {{!-- <article class="card">
+    <div class="card-header flex-row justify-space-between">
+      <h2>
+        <a href="/post/{{id}}">{{title}}</a>
+      </h2>
+      <div>
+        Posted by {{User.username}} on {{format_date createdAt}}
+      </div>
+    </div>
+    <div class="card-body">
+      <p>Ingredients</p>
+      {{body}}
+      <br>
+      <p>Instructions</p>
+      {{content}}
+    </div>
+  </article> --}}
+  {{/each}}
+</div>
